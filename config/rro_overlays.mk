@@ -57,7 +57,7 @@ PRODUCT_PACKAGES += \
     DreamlinerOverlay
 endif
 
-ifneq ($(filter panther cheetah lynx felix shiba husky akita tokay caiman komodo, $(LINEAGE_BUILD)),)
+ifneq ($(filter panther cheetah lynx felix shiba husky akita comet tokay caiman komodo, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
     ClearCallingOverlay
 endif
